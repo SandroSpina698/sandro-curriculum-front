@@ -1,0 +1,68 @@
+@import "../../../shared/styles/shared-styles";
+
+.header-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  height: 11.25rem;
+  position: relative;
+
+  .left-part-header, .right-part-header {
+    position: absolute;
+    min-height: 100%;
+    top: 0;
+  }
+
+  .left-part-header {
+    left: 0;
+    width: 37.755%;
+    background-color: $color-background;
+  }
+
+  .right-part-header {
+    right: 0;
+    width: 62.245%;
+    background-color: $color-background-main;
+  }
+
+  .header-main-title {
+    position: absolute;
+    z-index: 2;
+    top: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 3rem;
+    font-family: $font-primary;
+    letter-spacing: 0.5rem;
+    font-weight: $font-weight-medium;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: $color-text-medium;
+  }
+
+  .header-sub-title {
+    position: absolute;
+    z-index: 2;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 1rem;
+    font-family: $font-primary;
+    letter-spacing: 6px;
+    font-weight: $font-weight-medium;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: $color-text-medium;
+  }
+
+  .header-separator {
+    position: absolute;
+    bottom: 2px;
+    left: 10%;
+    right: 10%;
+    margin: auto;
+    border-bottom: 2px solid $color-text-medium;
+  }
+}

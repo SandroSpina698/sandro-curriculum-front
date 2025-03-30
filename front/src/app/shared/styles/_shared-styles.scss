@@ -1,0 +1,42 @@
+$background-color: #282a36;
+
+// Main colors
+$color-text-dark: #333333; // Main text color
+$color-text-medium: #4D4D4D; // Intermediate text color (profile content)
+$color-text-light: #666666; // Secondary text color
+$color-accent: #8B7D6B; // Color for "titles"
+$color-background: #F5F5F5; // Background color of the left section
+$color-background-main: #FFFFFF; // Main background color (right)
+
+// Links
+$color-link: #8B7D6B;
+$color-link-hover: darken($color-link, 10%);
+
+// Separators
+$color-separator: #DEDEDE; // Horizontal separator line
+
+// Sections
+$color-section-title: #4D4D4D; // PROFIL, EXPERIENCE, etc.
+
+
+// Font families
+$font-primary: 'Montserrat', sans-serif; // For the name and section titles
+$font-secondary: 'Open Sans', sans-serif; // For the body text content
+
+// Font sizes
+$font-size-name: 2.5rem; // SANDRO SPINA
+$font-size-title: 1.5rem; // PROFILE, EXPERIENCE, etc.
+$font-size-subtitle: 1.2rem; // SOFTWARE ENGINEER
+$font-size-body: 1rem; // Main text
+$font-size-label: 0.9rem; // Labels like "Phone:", "City:", etc.
+
+// Font weights
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// Line heights
+$line-height-tight: 1.2;
+$line-height-normal: 1.5;
+$line-height-loose: 1.8;
