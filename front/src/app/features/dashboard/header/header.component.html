@@ -2,6 +2,10 @@
   <div class="left-part-header"></div>
   <div class="right-part-header"></div>
   <p class="header-main-title">SANDRO SPINA</p>
-  <div class="header-sub-title">ingénieur logiciel</div>
+  <div class="header-sub-title">{{'header.job' | translate}}</div>
   <div class="header-separator"></div>
+  <div class="langs-container">
+    <div [class]="'french-lang fi fi-fr ' + (currentLang === 'fr' ? 'selected' : 'not-selected')" (click)="changeLang('fr')"></div>
+    <div [class]="'english-lang fi fi-gb ' + (currentLang === 'en' ? 'selected' : 'not-selected')" (click)="changeLang('en')"></div>
+  </div>
 </div>

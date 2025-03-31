@@ -65,4 +65,30 @@
     margin: auto;
     border-bottom: 2px solid $color-text-medium;
   }
+
+  .langs-container {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    div {
+      cursor: pointer;
+      transition: all 0.5s;
+    }
+
+    div:first-child {
+      margin-right: 0.5rem;
+    }
+
+    .selected {
+      transform: scale(1.45);
+    }
+
+    .not-selected {
+      transform: scale(0.85);
+    }
+  }
 }
