@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'HK Grotesk';
+  src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype'),
+  url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Archivo Black';
+  src: url('/assets/fonts/ArchivoBlack-Regular.ttf') format('truetype'),
+  url('/assets/fonts/ArchivoBlack-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 $background-color: #282a36;
 
 // Main colors
@@ -20,8 +38,9 @@ $color-section-title: #4D4D4D; // PROFIL, EXPERIENCE, etc.
 
 
 // Font families
-$font-primary: 'Montserrat', sans-serif; // For the name and section titles
-$font-secondary: 'Open Sans', sans-serif; // For the body text content
+$font-primary: 'HK Grotesk', 'Montserrat', sans-serif;      // For titles and names
+$font-secondary: 'Roboto', 'Open Sans', sans-serif;        // For body text
+$font-subtitle: 'Archivo Black', 'Roboto', sans-serif;    // For subtitles
 
 // Font sizes
 $font-size-name: 2.5rem; // SANDRO SPINA

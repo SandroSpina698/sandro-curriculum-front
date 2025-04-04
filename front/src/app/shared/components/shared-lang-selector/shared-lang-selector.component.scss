@@ -1,0 +1,26 @@
+
+.langs-container {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  .country {
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  :first-child {
+    margin-right: 0.5rem;
+  }
+
+  .selected {
+    transform: scale(1.45);
+  }
+
+  .not-selected {
+    transform: scale(0.85);
+  }
+}

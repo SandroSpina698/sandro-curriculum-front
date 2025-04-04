@@ -1,3 +1,33 @@
 <div class="right-part-container">
-  <app-shared-body-text [textKey]="'right-part.profile'"/>
+  <!---PROFILE-->
+  <app-shared-sub-title [textKey]="'right-part.profile.title'"/>
+
+  <app-shared-body-text [textKey]="'right-part.profile.content'"/>
+
+  <!---EXPERIENCE-->
+  <app-shared-sub-title [textKey]="'right-part.experience.title'"/>
+
+  <app-shared-sub-title [textKey]="'right-part.experience.tasks.nsysu.dates-job-title'" [level]="2"/>
+  <app-shared-body-text [textKey]="'right-part.experience.tasks.nsysu.content'"/>
+  <app-shared-body-text [bulletList]="nsysuBulletList"/>
+
+  <app-shared-sub-title [textKey]="'right-part.experience.tasks.work-study-program.dates-job-title'" [level]="2"/>
+  <app-shared-body-text [textKey]="'right-part.experience.tasks.work-study-program.content'"/>
+  <app-shared-body-text [bulletList]="workStudyProgramBulletList"/>
+
+  <app-shared-sub-title [textKey]="'right-part.experience.tasks.internship.dates-job-title'" [level]="2"/>
+  <app-shared-body-text [textKey]="'right-part.experience.tasks.internship.content'"/>
+  <app-shared-body-text [bulletList]="internshipBulletList"/>
+
+  <!---EDUCATION-->
+  <app-shared-sub-title [textKey]="'right-part.education.title'"/>
+
+  <app-shared-sub-title [textKey]="'right-part.education.tasks.cpe.dates-job-title'" [level]="2"/>
+  <app-shared-body-text [textKey]="'right-part.education.tasks.cpe.content'"/>
+  <app-shared-body-text [bulletList]="cpeBulletList"/>
+
+  <app-shared-sub-title [textKey]="'right-part.education.tasks.dut.dates-job-title'" [level]="2"/>
+  <app-shared-sub-title [textKey]="'right-part.education.tasks.dut.content'" [level]="3"/>
+  <app-shared-body-text [textKey]="'right-part.education.tasks.dut.main-content'"/>
+
 </div>

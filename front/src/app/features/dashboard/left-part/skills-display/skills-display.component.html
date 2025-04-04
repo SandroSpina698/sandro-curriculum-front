@@ -1,0 +1,9 @@
+@if (imagesSrc && imagesSrc.length > 0) {
+  <div class="skills-display-container">
+    <div class="skills-grid">
+      @for (imageSrc of imagesSrc; track imagesSrc) {
+        <img class="skill-icon" [src]="imageSrc.src" [alt]="imageSrc.name + ' logo icon'">
+      }
+    </div>
+  </div>
+}

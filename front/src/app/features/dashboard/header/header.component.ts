@@ -1,28 +1,23 @@
-import { Component } from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {TranslatePipe, TranslateService} from "@ngx-translate/core";
+import {LanguageService} from "../../../core/language/language.service";
+import {Subscription} from "rxjs";
+import {RouterLink} from "@angular/router";
+import {
+  SharedLangSelectorComponent
+} from "../../../shared/components/shared-lang-selector/shared-lang-selector.component";
 
 @Component({
   selector: 'app-header',
   standalone: true,
   imports: [
-    TranslatePipe
+    TranslatePipe,
+    RouterLink,
+    SharedLangSelectorComponent
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  private _currentLang: string = '';
-
-  constructor(private translateService: TranslateService) {
-    this._currentLang = this.translateService.currentLang;
-  }
-
-  get currentLang(): string {
-    return this._currentLang;
-  }
-
-  changeLang(lang: string) {
-    this.translateService.use(lang);
-    this._currentLang = lang;
-  }
+  constructor() {}
 }

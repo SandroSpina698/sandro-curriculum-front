@@ -35,7 +35,7 @@
     font-size: 3rem;
     font-family: $font-primary;
     letter-spacing: 0.5rem;
-    font-weight: $font-weight-medium;
+    font-weight: $font-weight-bold;
     text-transform: uppercase;
     white-space: nowrap;
     color: $color-text-medium;
@@ -49,9 +49,9 @@
     transform: translateX(-50%);
     margin: 0;
     font-size: 1rem;
-    font-family: $font-primary;
+    font-family: $font-secondary;
     letter-spacing: 6px;
-    font-weight: $font-weight-medium;
+    font-weight: $font-weight-bold;
     text-transform: uppercase;
     white-space: nowrap;
     color: $color-text-medium;
@@ -64,31 +64,5 @@
     right: 10%;
     margin: auto;
     border-bottom: 2px solid $color-text-medium;
-  }
-
-  .langs-container {
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-
-    div {
-      cursor: pointer;
-      transition: all 0.5s;
-    }
-
-    div:first-child {
-      margin-right: 0.5rem;
-    }
-
-    .selected {
-      transform: scale(1.45);
-    }
-
-    .not-selected {
-      transform: scale(0.85);
-    }
   }
 }

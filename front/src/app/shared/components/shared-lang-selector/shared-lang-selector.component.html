@@ -1,0 +1,4 @@
+<div class="langs-container">
+  <div [class]="'country french-lang fi fi-fr ' + (currentLang === 'fr' ? 'selected' : 'not-selected')" (click)="changeLang('fr')"></div>
+  <div [class]="'country english-lang fi fi-gb ' + (currentLang === 'en' ? 'selected' : 'not-selected')" (click)="changeLang('en')"></div>
+</div>

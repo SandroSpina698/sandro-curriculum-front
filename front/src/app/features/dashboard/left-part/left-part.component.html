@@ -1,3 +1,13 @@
 <div class="left-part-container">
-  <app-shared-body-text/>
+  <!--CONTACT-->
+  <app-shared-sub-title [textKey]="'left-part.contact.title'"/>
+  <!--SKILLS-->
+  <app-shared-sub-title [textKey]="'left-part.skills.title'"/>
+  <app-shared-body-text [textKey]="'left-part.skills.content.1'"/>
+  <app-skills-display [imagesSrc]="skills"/>
+  <app-shared-body-text [textKey]="'left-part.skills.content.2'"/>
+  <!--OTHER SKILLS-->
+  <app-shared-sub-title [textKey]="'left-part.other-skills.title'"/>
+  <!--LANGUAGES-->
+  <app-shared-sub-title [textKey]="'left-part.languages.title'"/>
 </div>

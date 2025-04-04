@@ -1,0 +1,28 @@
+@import "../../styles/shared-styles";
+
+.title-container {
+  margin: 1rem 0;
+  white-space: nowrap;
+  color: $color-text-medium;
+
+  &.level-1 {
+    font-size: $font-size-title;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: $font-subtitle;
+    letter-spacing: 2.5px;
+  }
+
+  &.level-2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-wrap: auto;
+    font-family: $font-secondary;
+  }
+
+  &.level-3 {
+    margin: 0 0 1rem 0;
+    font-family: $font-secondary;
+    font-weight: $font-weight-medium;
+  }
+}

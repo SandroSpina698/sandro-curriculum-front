@@ -1,8 +1,78 @@
 {
   "header": {
-    "job": "ingénieur logiciel"
+    "job": "ingénieur logiciels"
   },
   "right-part": {
-    "profile": "Étudiant en quatrième année d'école d'ingénieur en informatique, actuellement en alternance, je suis à la recherche de nouveaux défis. Avec deux ans d'expérience en tant que développeur Fullstack, j'ai amélioré mes compétences en développement front-end et back-end. J'attache beaucoup d'importance à fournir des solutions de haute qualité en temps et en heure. Mon expérience dans divers projets et dans plusieurs langages de programmation et frameworks m'a permis de devenir polyvalent et de contribuer efficacement au bon développement d'une équipe dynamique."
+    "profile": {
+      "title": "profil",
+      "content": "Étudiant en quatrième année d'école d'ingénieur en informatique, actuellement en alternance, je suis à la recherche de nouveaux défis. Avec deux ans d'expérience en tant que développeur Fullstack, j'ai amélioré mes compétences en développement front-end et back-end. J'attache beaucoup d'importance à fournir des solutions de haute qualité en temps et en heure. Mon expérience dans divers projets et dans plusieurs langages de programmation et frameworks m'a permis de devenir polyvalent et de contribuer efficacement au bon développement d'une équipe dynamique."
+    },
+    "experience": {
+      "title": "experience",
+      "tasks": {
+        "nsysu": {
+          "content": "National Sun Yat-Sen University (NSYSU) - Taïwan",
+          "dates-job-title": "Juin 2024 - Septembre 2024: Assistant de recherche",
+          "1": "Assistance dans l'analyse d'imagerie médicale à l'aide du machine learning"
+        },
+        "work-study-program": {
+          "content": "Sis ID",
+          "dates-job-title": "Septembre 2024 - Actuellement: Développeur full stack",
+          "1": "Développeur expérimenté maîtrisant les technologies frontend et backend (API et application web) utilisant Java Spring, Angular, MongoDB et PostgreSQL.",
+          "2": "Développement d'une interface graphique pour la vérification des coordonnées bancaires via le système CoP à partir d'un connecteur technique préexistant.",
+          "3": "Travailler sur une solution SaaS collaborative pour lutter contre la fraude financière.",
+          "4": "Travail sur des architectures microservices orchestrées via Kubernetes.",
+          "5": "Mise en œuvre de méthodologies agiles telles que Scrum et Kanban.",
+          "6": "Fortes compétences en résolution de problèmes et un grand souci du détail dans le développement du code.",
+          "7": "Jouer un rôle clé dans l'optimisation des performances de l'application et de l'expérience utilisateur et l’ajout de fonctionnalités diverses."
+        },
+        "internship": {
+          "content": "Sis ID",
+          "dates-job-title": "2022 - Stage développeur",
+          "1": "Maintien du statut opérationnel de l'application, intégration de nouvelles fonctionnalités et d'un nouveau design system.",
+          "2": "Amélioration et correction des tests unitaires, des tests d’intégration et des tests de bout en bout à l’aide de Cypress pour améliorer la qualité du code et la robustesse des fonctionnalités de l'application.",
+          "3": "Contribution à la migration de l'application vers une version majeure d'Angular."
+        }
+      }
+    },
+    "education": {
+      "title": "education",
+      "tasks": {
+        "cpe": {
+          "content": "CPE Lyon",
+          "dates-job-title": "2022 - 2025: Diplôme d'ingénieur en informatique et réseaux de communication (IRC)",
+          "1": "Majeures: Programmation orientée objets, architecture des systèmes d'information, application web dynamiques",
+          "2": "Mineures: Comptabilité, économie, gestion de projets, mathématiques, anglais"
+        },
+        "dut": {
+          "content": "Université Claude Bernard Lyon 1",
+          "dates-job-title": "2020 - 2022: DUT informatique",
+          "main-content": "Diplôme universitaire de deux ans en informatique générale avec introduction aux structures de données, aux systèmes d'exploitation, à git, à certains langages de programmation, à UML, à Merise, etc."
+        }
+      }
+    }
+  },
+  "left-part": {
+    "contact": {
+      "title": "contact"
+    },
+    "skills": {
+      "title": "compétences",
+      "content.1": "Langages de programmation et frameworks parmi ceux que je maîtrise",
+      "content.2": "Développement, gestion de projets en méthodes agiles, outils devOps"
+    },
+    "other-skills": {
+      "title": "autres compétences"
+    },
+    "languages": {
+      "title": "langues"
+    }
+  },
+  "404": {
+    "button.back": "Retour à l'accueil",
+    "gif": {
+      "alt": "Un homme ( Vincent Vega, personnage du film Pulp Fiction de Quentin Tarantino joué par John Travolta ) est dans une pièce se demandant où il est."
+    },
+    "main": "Oups ! Cette page n'existe pas."
   }
 }

@@ -1,8 +1,10 @@
 @import "../../../shared/styles/shared-styles";
+$width: 100%;
 
 .right-part-container {
-  width: 100%;
+  width: $width;
+  max-width: $width;
   background-color: $color-background-main;
   min-height: 100%;
-  padding: 1rem 1.5rem 1rem 1rem;
+  padding: 2rem 1.5rem 1rem 1rem;
 }
