@@ -10,10 +10,11 @@
   .country {
     cursor: pointer;
     transition: all 0.5s;
+    margin-right: 0.5rem;
   }
 
-  :first-child {
-    margin-right: 0.5rem;
+  :last-child {
+    margin-right: 0.25rem;
   }
 
   .selected {

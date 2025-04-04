@@ -1,11 +1,14 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Subscription} from "rxjs";
 import {LanguageService} from "../../../core/language/language.service";
+import {TranslatePipe} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-shared-lang-selector',
   standalone: true,
-  imports: [],
+  imports: [
+    TranslatePipe
+  ],
   templateUrl: './shared-lang-selector.component.html',
   styleUrl: './shared-lang-selector.component.scss'
 })
@@ -22,6 +25,7 @@ export class SharedLangSelectorComponent implements OnInit, OnDestroy {
   }
 
   changeLang(lang: string) {
+    console.info('changing the language to', lang);
     this.langService.changeLang(lang);
     this._currentLang = lang;
   }

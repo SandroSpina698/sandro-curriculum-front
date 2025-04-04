@@ -1,0 +1,79 @@
+{
+  "header": {
+    "job": "ingegnere del software",
+    "change-lang": "Cliccare su una bandiera per cambiare la lingua"
+  },
+  "right-part": {
+    "profile": {
+      "title": "profilo",
+      "content": "Studente al quarto anno di ingegneria informatica, attualmente in un programma di formazione in alternanza, sono alla ricerca di nuove sfide. Con due anni di esperienza come sviluppatore Fullstack, ho perfezionato le mie competenze nello sviluppo front-end e back-end. Attribuisco grande importanza alla fornitura di soluzioni di alta qualità nei tempi previsti. La mia esperienza in diversi progetti e con numerosi linguaggi di programmazione e framework mi ha permesso di diventare versatile e di contribuire efficacemente allo sviluppo proficuo di un team dinamico."
+    },
+    "experience": {
+      "title": "esperienza",
+      "tasks": {
+        "nsysu": {
+          "content": "National Sun Yat-Sen University (NSYSU) - Taiwan",
+          "dates-job-title": "Giugno 2024 - Settembre 2024: Assistente di ricerca",
+          "1": "Assistenza nell'analisi di immagini mediche mediante apprendimento automatico"
+        },
+        "work-study-program": {
+          "content": "Sis ID",
+          "dates-job-title": "Settembre 2024 - Attualmente: Sviluppatore full stack",
+          "1": "Sviluppatore esperto con padronanza delle tecnologie frontend e backend (API e applicazioni web) utilizzando Java Spring, Angular, MongoDB e PostgreSQL.",
+          "2": "Sviluppo di un'interfaccia grafica per la verifica delle coordinate bancarie tramite il sistema CoP partendo da un connettore tecnico preesistente.",
+          "3": "Lavoro su una soluzione SaaS collaborativa per contrastare le frodi finanziarie.",
+          "4": "Lavoro su architetture microservizi orchestrate tramite Kubernetes.",
+          "5": "Implementazione di metodologie agili come Scrum e Kanban.",
+          "6": "Solide competenze nella risoluzione dei problemi e grande attenzione ai dettagli nello sviluppo del codice.",
+          "7": "Ruolo chiave nell'ottimizzazione delle prestazioni dell'applicazione e dell'esperienza utente e nell'aggiunta di diverse funzionalità."
+        },
+        "internship": {
+          "content": "Sis ID",
+          "dates-job-title": "2022 - Tirocinio come sviluppatore",
+          "1": "Mantenimento dello stato operativo dell'applicazione, integrazione di nuove funzionalità e di un nuovo design system.",
+          "2": "Miglioramento e correzione dei test unitari, dei test di integrazione e dei test end-to-end utilizzando Cypress per migliorare la qualità del codice e la robustezza delle funzionalità dell'applicazione.",
+          "3": "Contributo alla migrazione dell'applicazione verso una versione principale di Angular."
+        }
+      }
+    },
+    "education": {
+      "title": "istruzione",
+      "tasks": {
+        "cpe": {
+          "content": "CPE Lyon",
+          "dates-job-title": "2022 - 2025: Laurea in ingegneria informatica e reti di comunicazione (IRC)",
+          "1": "Corsi principali: Programmazione orientata agli oggetti, architettura dei sistemi informativi, applicazioni web dinamiche",
+          "2": "Corsi secondari: Contabilità, economia, gestione di progetti, matematica, inglese"
+        },
+        "dut": {
+          "content": "Università Claude Bernard Lyon 1",
+          "dates-job-title": "2020 - 2022: DUT informatica",
+          "main-content": "Diploma universitario biennale in informatica generale con introduzione alle strutture dati, ai sistemi operativi, a git, ad alcuni linguaggi di programmazione, a UML, a Merise, ecc."
+        }
+      }
+    }
+  },
+  "left-part": {
+    "contact": {
+      "title": "contatto"
+    },
+    "skills": {
+      "title": "competenze",
+      "content.1": "Linguaggi di programmazione e framework tra quelli che padroneggio",
+      "content.2": "Sviluppo, gestione di progetti con metodologie agili, strumenti devOps"
+    },
+    "other-skills": {
+      "title": "altre competenze"
+    },
+    "languages": {
+      "title": "lingue"
+    }
+  },
+  "404": {
+    "button.back": "Ritorno alla pagina principale",
+    "gif": {
+      "alt": "Un uomo (Vincent Vega, personaggio del film Pulp Fiction di Quentin Tarantino interpretato da John Travolta) è in una stanza chiedendosi dove si trova."
+    },
+    "main": "Ops! Questa pagina non esiste."
+  }
+}

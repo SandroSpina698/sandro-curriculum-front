@@ -1,4 +1,16 @@
 <div class="langs-container">
-  <div [class]="'country french-lang fi fi-fr ' + (currentLang === 'fr' ? 'selected' : 'not-selected')" (click)="changeLang('fr')"></div>
-  <div [class]="'country english-lang fi fi-gb ' + (currentLang === 'en' ? 'selected' : 'not-selected')" (click)="changeLang('en')"></div>
+  <div [class]="'country french-lang fi fi-fr ' + (currentLang === 'fr' ? 'selected' : 'not-selected')"
+       (click)="changeLang('fr')"
+       [title]="'header.change-lang' | translate">
+  </div>
+
+  <div [class]="'country english-lang fi fi-gb ' + (currentLang === 'en' ? 'selected' : 'not-selected')"
+       (click)="changeLang('en')"
+       [title]="'header.change-lang' | translate">
+  </div>
+
+  <div [class]="'country italian-lang fi fi-it ' + (currentLang === 'it' ? 'selected' : 'not-selected')"
+       (click)="changeLang('it')"
+       [title]="'header.change-lang' | translate">
+  </div>
 </div>

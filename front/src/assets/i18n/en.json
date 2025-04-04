@@ -1,6 +1,7 @@
 {
   "header": {
-    "job": "software engineer"
+    "job": "software engineer",
+    "change-lang": "Click a flag to change the language"
   },
   "right-part": {
     "profile": {
@@ -57,7 +58,9 @@
       "title": "contact"
     },
     "skills": {
-      "title": "skills"
+      "title": "skills",
+      "content.1": "Programming languages and frameworks among those I master",
+      "content.2": "Development, project management using agile methods, devOps tools"
     },
     "other-skills": {
       "title": "other skills"
