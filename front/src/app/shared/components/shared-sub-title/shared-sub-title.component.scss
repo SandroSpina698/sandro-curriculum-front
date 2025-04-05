@@ -25,4 +25,12 @@
     font-family: $font-secondary;
     font-weight: $font-weight-medium;
   }
+
+  &.linked {
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }

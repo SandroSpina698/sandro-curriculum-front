@@ -1,3 +1,10 @@
-
-
-<button [ngClass]="'shared-button ' + type" [routerLink]="navigationLink" (click)="handleClick()">{{ textKey | translate }}</button>
+@switch (type) {
+  @case (ButtonTypeEnum.NAVIGATION) {
+    <button [ngClass]="'shared-button ' + type" [routerLink]="navigationLink" (click)="handleClick()">{{ textKey | translate }}</button>
+  }
+  @case (ButtonTypeEnum.CONTACT) {
+    <div class="contact-container">
+      <p [routerLink]="navigationLink">{{ textKey | translate }} ✉️</p>
+    </div>
+  }
+}

@@ -5,4 +5,55 @@
   background-color: $color-background;
   min-height: 100%;
   padding: 2rem 1rem 1rem 0.75rem;
+
+  .contact-informations {
+    display: flex;
+
+    .contact-categories {
+      width: 30%;
+    }
+
+    .contact-values {
+      width: 70%;
+    }
+  }
+
+  .skills-container, .languages-container, .projects-container {
+    margin-top: 3rem;
+  }
+}
+
+.contact-me-container {
+  margin-top: 3rem;
+}
+
+.languages-container {
+  .languages-list {
+    .lang-key {
+      white-space: nowrap;
+      color: $color-text-medium;
+      font-weight: 600;
+      text-wrap: auto;
+      font-family: $font-secondary;
+    }
+
+    .english {
+      cursor: pointer;
+
+      .lang-key {
+        text-decoration: underline;
+      }
+
+      .lang-content:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .lang-content {
+      margin: 0;
+      font-family: $font-secondary;
+      color: #666666;
+      font-weight: $font-weight-medium;
+    }
+  }
 }

@@ -3,6 +3,10 @@ import {SharedBodyTextComponent} from "../../../shared/components/shared-body-te
 import {SharedSubTitleComponent} from "../../../shared/components/shared-sub-title/shared-sub-title.component";
 import {SkillsDisplayComponent} from "./skills-display/skills-display.component";
 import {AppImages} from "../../../models/interfaces/AppImages";
+import {SharedButtonsComponent} from "../../../shared/shared-buttons/shared-buttons.component";
+import {ButtonTypeEnum} from "../../../shared/enums/ButtonTypeEnum";
+import {TranslatePipe} from "@ngx-translate/core";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-left-part',
@@ -10,13 +14,17 @@ import {AppImages} from "../../../models/interfaces/AppImages";
   imports: [
     SharedBodyTextComponent,
     SharedSubTitleComponent,
-    SkillsDisplayComponent
+    SkillsDisplayComponent,
+    SharedButtonsComponent,
+    TranslatePipe,
+    RouterLink
   ],
   templateUrl: './left-part.component.html',
   styleUrl: './left-part.component.scss'
 })
 export class LeftPartComponent implements OnInit {
   readonly availableSkillsIcons: string[] = ['angular', 'react', 'java', 'spring', 'dot-net', 'postgresql', 'python', 'mongodb'];
+  readonly projects: string[] = ['jamify', 'cv-angular', 'gymrats', 'others'];
 
   skills: AppImages[] = []
 
@@ -29,4 +37,10 @@ export class LeftPartComponent implements OnInit {
       }
     })
   }
+
+  openCambridge(): void {
+    window.open('assets/certificates/StatementOfResult.pdf', '_blank');
+  }
+
+  protected readonly ButtonTypeEnum = ButtonTypeEnum;
 }

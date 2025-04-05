@@ -55,18 +55,86 @@
   },
   "left-part": {
     "contact": {
-      "title": "contact"
+      "me": "Contactez moi!",
+      "title": "contact",
+      "telephone": {
+        "key": "Téléphone:",
+        "value": "+33 (0)6 18 48 14 88"
+      },
+      "city": {
+        "key": "Ville:",
+        "value": "Lyon, France"
+      },
+      "email": {
+        "key": "Mél:",
+        "value": "sandro.spina.pro@gmail.com"
+      },
+      "teams": {
+        "key": "Teams:",
+        "value": "sandro.spina.pro@gmail.com"
+      },
+      "linkedin": {
+        "key": "LinkedIn",
+        "value": ""
+      },
+      "github": {
+        "key": "Github",
+        "value": ""
+      }
     },
     "skills": {
       "title": "compétences",
       "content.1": "Langages de programmation et frameworks parmi ceux que je maîtrise",
       "content.2": "Développement, gestion de projets en méthodes agiles, outils devOps"
     },
+    "projects": {
+      "title": "Projets réalisés",
+      "jamify": {
+        "title": "Jamify – Réseau social musical",
+        "content": "Conception et développement backend en Spring (APIs, ESB avec ActiveMQ, intégration d’APIs externes) sur une architecture microservices."
+      },
+      "cv-angular": {
+        "title": "CV interactif Angular",
+        "content": "CV déployé sur AWS via Kubernetes & ArgoCD, CI/CD intégré. Front en Angular, backend à venir."
+      },
+      "gymrats": {
+        "title": "GymRats – App mobile coachs sportifs",
+        "content": "App React Native avec backend Spring microservices. Projet en cours, orienté gestion d'entraînements."
+      },
+      "others": {
+        "title": "Projets académiques",
+        "content": "Divers projets en Java, .NET, Angular et SQL, avec focus sur architecture et bonnes pratiques."
+      }
+    },
     "other-skills": {
-      "title": "autres compétences"
+      "title": "autres compétences",
+      "team-spirit": {
+        "title": "Esprit d'équipe",
+        "content": "Altruiste, solidaire, favorise la collaboration, contribue à l'unité et à l'objectif commmun."
+      },
+      "serious": {
+        "title": "Travailleur sérieux",
+        "content": "Ponctuel, fiable; respecte constamment les délais, fournit un travail de qualité."
+      },
+      "autonomous": {
+        "title": "Autonome",
+        "content": "Travaille de manière indépendante, résout les problèmes de manière proactive, s'adapte rapidement."
+      }
     },
     "languages": {
-      "title": "langues"
+      "title": "langues",
+      "french": {
+        "key": "Français",
+        "value": "Langue maternelle"
+      },
+      "english": {
+        "key": "Anglais",
+        "value": "Très bon niveau - C1 certifié CAE Cambridge"
+      },
+      "italian": {
+        "key": "Italien",
+        "value": "B2"
+      }
     }
   },
   "404": {

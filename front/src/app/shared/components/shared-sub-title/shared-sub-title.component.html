@@ -1,1 +1,13 @@
-<p [class]="'title-container level-' + level" [routerLink]="link?.trim() ? link : '.'">{{ textKey | translate }}</p>
+@if (link?.trim) {
+  <a [href]="link"
+     target="_blank"
+     rel="noopener noreferrer"
+     [class]="'title-container level-' + level"
+     [ngClass]="'linked'">
+    {{ textKey | translate }}
+  </a>
+} @else {
+  <p [class]="'title-container level-' + level">
+    {{ textKey | translate }}
+  </p>
+}

@@ -55,7 +55,11 @@
   },
   "left-part": {
     "contact": {
-      "title": "contatto"
+      "title": "contatto",
+      "telephone": {
+        "key": "",
+        "value": ""
+      }
     },
     "skills": {
       "title": "competenze",

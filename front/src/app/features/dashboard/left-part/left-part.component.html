@@ -1,13 +1,92 @@
 <div class="left-part-container">
   <!--CONTACT-->
   <app-shared-sub-title [textKey]="'left-part.contact.title'"/>
+  <div class="contact-informations">
+    <div class="contact-categories">
+      <app-shared-sub-title [level]="3" [textKey]="'left-part.contact.telephone.key'"/>
+      <app-shared-sub-title [level]="3" [textKey]="'left-part.contact.city.key'"/>
+      <app-shared-sub-title [level]="3" [textKey]="'left-part.contact.email.key'"/>
+      <app-shared-sub-title [level]="3" [textKey]="'left-part.contact.teams.key'"/>
+      <app-shared-sub-title [level]="3"
+                            [textKey]="'left-part.contact.linkedin.key'"
+                            [link]="'https://www.linkedin.com/in/sandro-s-281b351b9'"/>
+    </div>
+    <div class="contact-values">
+      <app-shared-sub-title [level]="3" [textKey]="'left-part.contact.telephone.value'"/>
+      <app-shared-sub-title [level]="3" [textKey]="'left-part.contact.city.value'"/>
+      <app-shared-sub-title [level]="3" [textKey]="'left-part.contact.email.value'"/>
+      <app-shared-sub-title [level]="3" [textKey]="'left-part.contact.teams.value'"/>
+      <app-shared-sub-title [level]="3"
+                            [textKey]="'left-part.contact.github.key'"
+                            [link]="'https://github.com/SandroSpina698'"/>
+    </div>
+  </div>
+  <div class="contact-me-container">
+    <app-shared-buttons [textKey]="'left-part.contact.me'" [type]="ButtonTypeEnum.CONTACT"
+                        [navigationLink]="'contact'"/>
+  </div>
   <!--SKILLS-->
-  <app-shared-sub-title [textKey]="'left-part.skills.title'"/>
-  <app-shared-body-text [textKey]="'left-part.skills.content.1'"/>
-  <app-skills-display [imagesSrc]="skills"/>
-  <app-shared-body-text [textKey]="'left-part.skills.content.2'"/>
-  <!--OTHER SKILLS-->
-  <app-shared-sub-title [textKey]="'left-part.other-skills.title'"/>
+  <div class="skills-container">
+    <app-shared-sub-title [textKey]="'left-part.skills.title'"/>
+    <app-shared-body-text [textKey]="'left-part.skills.content.1'"/>
+    <app-skills-display [imagesSrc]="skills"/>
+    <app-shared-body-text [textKey]="'left-part.skills.content.2'"/>
+  </div>
   <!--LANGUAGES-->
-  <app-shared-sub-title [textKey]="'left-part.languages.title'"/>
+  <div class="languages-container">
+    <app-shared-sub-title [textKey]="'left-part.languages.title'"/>
+
+    <ul class="languages-list">
+      <li class="french">
+        <span class="lang-key">
+          {{ 'left-part.languages.french.key' | translate }}
+        </span>
+        :
+        <span class="lang-content">
+          {{ 'left-part.languages.french.value' | translate }}
+        </span>
+      </li>
+      <li class="english">
+        <span class="lang-key">
+          {{ 'left-part.languages.english.key' | translate }}
+        </span>
+        :
+        <span class="lang-content" (click)="openCambridge()">
+          {{ 'left-part.languages.english.value' | translate }}
+        </span>
+      </li>
+      <li class="italian">
+        <span class="lang-key">
+          {{ 'left-part.languages.italian.key' | translate }}
+        </span>
+        :
+        <span class="lang-content">
+          {{ 'left-part.languages.italian.value' | translate }}
+        </span>
+      </li>
+    </ul>
+  </div>
+  <!--PROJETS-->
+  <div class="projects-container">
+    <app-shared-sub-title [textKey]="'left-part.projects.title'"/>
+    @for (project of projects; track project) {
+      <app-shared-sub-title [level]="2" [textKey]="'left-part.projects.' + project + '.title'"/>
+      <app-shared-body-text [textKey]="'left-part.projects.' + project + '.content'"/>
+    }
+  </div>
+  <!--OTHER SKILLS-->
+  <!-- not showing for now ... too humble for that
+    <div class="other-skills-container">
+      <app-shared-sub-title [textKey]="'left-part.other-skills.title'"/>
+
+      <app-shared-sub-title [level]="2" [textKey]="'left-part.other-skills.team-spirit.title'"/>
+      <app-shared-body-text [textKey]="'left-part.other-skills.team-spirit.content'"/>
+
+      <app-shared-sub-title [level]="2" [textKey]="'left-part.other-skills.serious.title'"/>
+      <app-shared-body-text [textKey]="'left-part.other-skills.serious.content'"/>
+
+      <app-shared-sub-title [level]="2" [textKey]="'left-part.other-skills.autonomous.title'"/>
+      <app-shared-body-text [textKey]="'left-part.other-skills.autonomous.content'"/>
+    </div>
+  -->
 </div>

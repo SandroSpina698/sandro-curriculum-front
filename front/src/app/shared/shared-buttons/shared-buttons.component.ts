@@ -26,4 +26,6 @@ export class SharedButtonsComponent {
   handleClick() {
     this.onClickAction.emit();
   }
+
+  protected readonly ButtonTypeEnum = ButtonTypeEnum;
 }

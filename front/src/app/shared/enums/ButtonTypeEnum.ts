@@ -1,3 +1,4 @@
 export enum ButtonTypeEnum {
-  NAVIGATION = 'navigation'
+  NAVIGATION = 'navigation',
+  CONTACT = 'contact'
 }
