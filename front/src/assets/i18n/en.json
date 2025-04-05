@@ -1,38 +1,38 @@
 {
   "header": {
-    "job": "software engineer",
-    "change-lang": "Click a flag to change the language"
+    "job": "Software Engineer",
+    "change-lang": "Click on a flag to change the language"
   },
   "right-part": {
     "profile": {
       "title": "profile",
-      "content": "A fourth-year computer engineering student in a work-study program, I am seeking new challenges. With two years of experience as a Fullstack Developer, I have refined my front-end and back-end development skills. I am deeply committed to delivering high-quality solutions on time. My experience across various projects, programming languages, and frameworks has enabled me to become versatile and contribute effectively to the success of a dynamic team."
+      "content": "Currently a fourth-year computer engineering student enrolled in a work-study program, I am seeking new and stimulating challenges. With two years of experience as a Fullstack Developer, I have refined my skills in both front-end and back-end development. I am deeply committed to delivering high-quality solutions in a timely manner. My involvement in diverse projects and familiarity with various programming languages and frameworks have made me highly adaptable, allowing me to contribute effectively to the success of dynamic development teams."
     },
     "experience": {
       "title": "experience",
       "tasks": {
         "nsysu": {
           "content": "National Sun Yat-Sen University (NSYSU) - Taiwan",
-          "dates-job-title": "June 2024 - September 2024: Research Assistant",
-          "1": "Assistance in medical imaging analysis using machine learning"
+          "dates-job-title": "June 2024 – September 2024: Research Assistant",
+          "1": "Assisting in medical imaging analysis using machine learning techniques"
         },
         "work-study-program": {
           "content": "Sis ID",
-          "dates-job-title": "September 2024 - Present: Full-stack Developer",
-          "1": "Experienced developer mastering frontend and backend technologies (API and web application) using Java Spring, Angular, MongoDB, and PostgreSQL.",
-          "2": "Developed a graphical interface for verifying bank account details via the CoP system using an existing technical connector.",
-          "3": "Worked on a collaborative SaaS solution to combat financial fraud.",
-          "4": "Worked with microservice architectures orchestrated via Kubernetes.",
+          "dates-job-title": "September 2024 – Present: Full Stack Developer",
+          "1": "Experienced developer proficient in both frontend and backend technologies (APIs and web applications) using Java Spring, Angular, MongoDB, and PostgreSQL.",
+          "2": "Developed a user interface for verifying banking details via the CoP system, based on a pre-existing technical connector.",
+          "3": "Contributed to a collaborative SaaS solution aimed at combating financial fraud.",
+          "4": "Worked within microservice architectures orchestrated through Kubernetes.",
           "5": "Implemented agile methodologies such as Scrum and Kanban.",
-          "6": "Strong problem-solving skills and a great attention to detail in code development.",
-          "7": "Played a key role in optimizing application performance, enhancing user experience, and adding various features."
+          "6": "Strong problem-solving abilities and meticulous attention to code quality.",
+          "7": "Played a key role in optimizing application performance, enhancing user experience, and implementing various new features."
         },
         "internship": {
           "content": "Sis ID",
-          "dates-job-title": "2022 - Internship Developer",
-          "1": "Maintained the operational status of the application, integrated new features, and updated the design system.",
-          "2": "Improved and fixed unit tests, integration tests, and end-to-end tests using Cypress to enhance code quality and application robustness.",
-          "3": "Contributed to migrating the application to a major Angular version."
+          "dates-job-title": "2022 – Developer Intern",
+          "1": "Maintained the operational status of the application while integrating new features and a revamped design system.",
+          "2": "Improved and corrected unit, integration, and end-to-end tests using Cypress to enhance code quality and application robustness.",
+          "3": "Contributed to the migration of the application to a major version of Angular."
         }
       }
     },
@@ -41,39 +41,107 @@
       "tasks": {
         "cpe": {
           "content": "CPE Lyon",
-          "dates-job-title": "2022 - 2025: Engineering Degree in Computer Science and Communication Networks (IRC)",
-          "1": "Majors: Object-oriented programming, information systems architecture, dynamic web applications",
-          "2": "Minors: Accounting, economics, project management, mathematics, English"
+          "dates-job-title": "2022 – 2025: Engineering Degree in Computer Science and Communication Networks (IRC)",
+          "1": "Majors: Object-Oriented Programming, Information Systems Architecture, Dynamic Web Applications",
+          "2": "Minors: Accounting, Economics, Project Management, Mathematics, English"
         },
         "dut": {
-          "content": "Université Claude Bernard Lyon 1",
-          "dates-job-title": "2020 - 2022: DUT in Computer Science",
-          "main-content": "Two-year university degree in general computer science, covering data structures, operating systems, Git, several programming languages, UML, Merise, and more."
+          "content": "Claude Bernard University Lyon 1",
+          "dates-job-title": "2020 – 2022: DUT in Computer Science",
+          "main-content": "Two-year university diploma in general computer science with introductions to data structures, operating systems, Git, various programming languages, UML, Merise, etc."
         }
       }
     }
   },
   "left-part": {
     "contact": {
-      "title": "contact"
+      "me": "Contact me!",
+      "title": "contact",
+      "telephone": {
+        "key": "Phone:",
+        "value": "+33 (0)6 18 48 14 88"
+      },
+      "city": {
+        "key": "City:",
+        "value": "Lyon, France"
+      },
+      "email": {
+        "key": "Email:",
+        "value": "sandro.spina.pro@gmail.com"
+      },
+      "teams": {
+        "key": "Teams:",
+        "value": "sandro.spina.pro@gmail.com"
+      },
+      "linkedin": {
+        "key": "LinkedIn",
+        "value": ""
+      },
+      "github": {
+        "key": "GitHub",
+        "value": ""
+      }
     },
     "skills": {
       "title": "skills",
-      "content.1": "Programming languages and frameworks among those I master",
-      "content.2": "Development, project management using agile methods, devOps tools"
+      "content.1": "Programming languages and frameworks I am proficient in",
+      "content.2": "Development, agile project management, devOps tools"
+    },
+    "projects": {
+      "title": "Projects",
+      "jamify": {
+        "title": "Jamify – Music Social Network",
+        "content": "Backend design and development using Spring (APIs, ESB with ActiveMQ, integration of external APIs) within a microservices architecture."
+      },
+      "cv-angular": {
+        "title": "Interactive CV with Angular",
+        "content": "CV deployed on AWS using Kubernetes & ArgoCD with integrated CI/CD. Frontend in Angular, backend in progress."
+      },
+      "gymrats": {
+        "title": "GymRats – Mobile App for Sports Coaches",
+        "content": "React Native app with Spring microservices backend. Ongoing project focused on workout management."
+      },
+      "others": {
+        "title": "Academic Projects",
+        "content": "Various projects in Java, .NET, Angular, and SQL with emphasis on architecture and best practices."
+      }
     },
     "other-skills": {
-      "title": "other skills"
+      "title": "additional skills",
+      "team-spirit": {
+        "title": "Team Spirit",
+        "content": "Altruistic and supportive, promotes collaboration and contributes to team unity and shared objectives."
+      },
+      "serious": {
+        "title": "Diligent Worker",
+        "content": "Punctual and reliable; consistently meets deadlines and delivers high-quality work."
+      },
+      "autonomous": {
+        "title": "Autonomous",
+        "content": "Works independently, solves problems proactively, and adapts quickly to new challenges."
+      }
     },
     "languages": {
-      "title": "languages"
+      "title": "languages",
+      "french": {
+        "key": "French",
+        "value": "Native language"
+      },
+      "english": {
+        "key": "English",
+        "value": "Advanced level – C1 certified (Cambridge CAE)"
+      },
+      "italian": {
+        "key": "Italian",
+        "value": "B2"
+      }
     }
   },
   "404": {
-    "button.back": "Back to home",
+    "button.back": "Return to homepage",
     "gif": {
-      "alt": "A man (Vincent Vega, a character from the film Pulp Fiction by Quentin Tarantino played by John Travolta) is standing in a room, wondering where he is."
+      "alt": "A man (Vincent Vega, a character from Quentin Tarantino’s film Pulp Fiction portrayed by John Travolta) stands in a room, looking confused as to where he is."
     },
-    "main": "Oops! This page doesn’t exist."
+    "main": "Oops! This page does not exist."
   }
 }
